@@ -15,7 +15,6 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v2.1.1
       with:
-        name: git-0.0.1-SNAPSHOT.jar
         repository: lua-cometa/test_git
         run-id: 1695540685
 
