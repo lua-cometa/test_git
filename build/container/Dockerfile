@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk17
+FROM eclipse-temurin:17
 
 RUN mkdir -P /engn001/test
 
