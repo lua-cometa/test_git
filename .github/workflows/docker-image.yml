@@ -12,8 +12,7 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v2.1.1
       with:
-        repository: lua-cometa/test_git
-        run-id: 1695540685
+        name: git-0.0.1-SNAPSHOT.jar
 
     - name: Access Secrets
       run: |
