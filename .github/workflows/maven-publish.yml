@@ -27,6 +27,7 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v4
+      id: artifact-upload-step
       with:
         name: git-0.0.1-SNAPSHOT.jar
         path: target
